@@ -17,12 +17,12 @@ const slides = [
 	}
 ]
 
-const arrow=document.querySelector(".arrow_left");
-arrow.addEventListener("click",function(){
+const arrowLeft=document.querySelector(".arrow_left");
+arrowLeft.addEventListener("click",function(){
 
 });
 
-cont arrow=document.querySelector("arrow_right");
-arrow.addEventListener("click",function(){
+const arrowRight=document.querySelector("arrow_right");
+arrowRight.addEventListener("click",function(){
 
 });
