@@ -18,11 +18,13 @@ const slides = [
 ]
 
 const arrowLeft=document.querySelector(".arrow_left");
-arrowLeft.addEventListener("click",function(){
-
+arrowLeft.addEventListener("click",()=>{
+	alert("previous");
 });
 
-const arrowRight=document.querySelector("arrow_right");
-arrowRight.addEventListener("click",function(){
-
+const arrowRight=document.querySelector(".arrow_right");
+arrowRight.addEventListener("click",()=>{
+	alert("next");
 });
+
+c
